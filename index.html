@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ti yourte</title>
+	<link href="https://fonts.googleapis.com/css?family=Coming+Soon|Sacramento" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+
+</head>
+<body>
+	<header id="header">
+		<div id="logo_container"><img src="logo.svgz"></div>
+		<h1>Ti yourte</h1>
+	</header>
+	<img id="close" src="close.svg">
+	<div id="toiles_info" class="info">
+		<div>
+			<h2>Toiles internes</h2>
+			<ul>
+				<h3 class="lol">yo
+				</h3>
+				<li>5% plus fort que le reste</li>
+				<h3>yhrllrt
+				</h3>
+				<li>5% plus fort que le reste</li>
+				<h3 class="lol">HAHAHAHAHAHAH
+				</h3>
+				<li>5% plus fort que le reste</li>
+			</ul>
+		</div>
+		<div>
+			<h2>Isolation</h2>
+			<ul>
+				<h3>yo
+				</h3>
+				<h3>yhrllrt
+				</h3>
+				<h3>HAHAHAHAHAHAH
+				</h3>
+			</ul>
+		</div>
+		<div>
+			<h2>Toiles externes	</h2>
+			<ul>
+				<h3>yo
+				</h3>
+				<h3>yhrllrt
+				</h3>
+				<h3>HAHAHAHAHAHAH
+				</h3>
+			</ul>
+		</div>
+	</div>
+	<div id="nav">
+		<ul>
+			<a id="info">Qui suis-je ?</a>
+			<a id="products">Mes toiles</a>
+			<a id="pics">Des photos</a>
+			<a id="contact">Me contacter</a>
+		</ul>
+	</div>
+	<footer>
+		<script src="http://cdn.jsdelivr.net/velocity/1.5/velocity.min.js"></script>
+		<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+		<script>
+			$("a").click(
+				function() {
+					$("header").css("filter", "blur(20px)");
+					$("#close").css("opacity", "1");
+				}
+			);
+			$("#close").click(
+				function() {
+					$("header").css("filter", "blur(0px)");
+					$("#close").css("opacity", "0");
+				}
+			);
+		</script>
+
+	</footer>
+</body>
+</html>
